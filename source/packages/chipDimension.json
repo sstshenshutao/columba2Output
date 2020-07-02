@@ -1,0 +1,8 @@
+{
+    "$name": "chipDimension",
+    "$schemaType": "OSON",
+    "$schema": {
+        "maxX": "13000@Integer",
+        "maxY": "12200@Integer"
+    }
+}

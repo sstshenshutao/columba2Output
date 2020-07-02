@@ -1,0 +1,17 @@
+{
+    "$name": "controlChannelSegment",
+    "$schemaType": "OSON",
+    "$schema": [
+        {
+            "start": {
+                "x": "9000@Integer",
+                "y": "800@Integer"
+            },
+            "end": {
+                "x": "9700@Integer",
+                "y": "600@Integer"
+            }
+        },
+        "array"
+    ]
+}

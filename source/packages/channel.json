@@ -1,0 +1,4 @@
+{
+    "$name": "channel",
+    "$use": ["flowChannelSegment","controlChannelSegment"]
+}

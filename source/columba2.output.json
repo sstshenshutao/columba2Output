@@ -1,0 +1,6 @@
+{
+    "$name": "columba2.output",
+    "$version": "1.0.0",
+    "$readme" :"This is the UMF format. The device, chipDimension and channel properties are the output of columba2. The properties with dollar is control data, $schema is the json schema to check the whole file itself, vie",
+    "$use": ["device","chipDimension","channel"]
+}

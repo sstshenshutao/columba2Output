@@ -1,0 +1,73 @@
+{
+    "$name": "device",
+    "$schemaType": "OSON",
+    "$schema": [
+        {
+            "centerX": "7950@Integer",
+            "centerY": "3250@Integer",
+            "width": "1500@Integer",
+            "length": "1500@Integer",
+            "type": "flowInlet@String"
+        },
+        {
+            "centerX": "7950@Integer",
+            "centerY": "3250@Integer",
+            "width": "1500@Integer",
+            "length": "1500@Integer",
+            "type": "controlInlet@String"
+        },
+        {
+            "centerX": "7950@Integer",
+            "centerY": "3250@Integer",
+            "width": "1500@Integer",
+            "length": "1500@Integer",
+            "type": "mixer@String",
+            "orientation": "270@Integer",
+            "controlChannel": {
+                "number": "24@Integer",
+                "activePin": [
+                    "1@Integer",
+                    "array"
+                ]
+            }
+        },
+        {
+            "centerX": "7950@Integer",
+            "centerY": "3250@Integer",
+            "width": "1500@Integer",
+            "length": "1500@Integer",
+            "type": "switch@String",
+            "orientation": "0@Integer",
+            "controlChannel": {
+                "number": "12@Integer",
+                "activePin": [
+                    "1@Integer",
+                    "array"
+                ]
+            },
+            "flowChannel": {
+                "number": "12@Integer",
+                "activePin": [
+                    "1@Integer",
+                    "array"
+                ]
+            }
+        },
+        {
+            "centerX": "7950@Integer",
+            "centerY": "3250@Integer",
+            "width": "1500@Integer",
+            "length": "1500@Integer",
+            "type": "chamber@String",
+            "orientation": "270@Integer",
+            "controlChannel": {
+                "number": "12@Integer",
+                "activePin": [
+                    "1@Integer",
+                    "array"
+                ]
+            }
+        },
+        "array"
+    ]
+}
