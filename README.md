@@ -1,8 +1,8 @@
 # columba2Output
 ## use it directly  
 Your file should come from http://cc1.cloud-columba.org/  
-1. you can read the properties "device", "chipDimension" and "channel" as output data of Columba2.  
-2. you can read the properties "$schema" to get a pure json schema which can validate the output of Columba2.  
+1. the output file of Columba2: you can read the properties "device", "chipDimension" and "channel" as output data of Columba2.  
+2. compiledPackage.json: you can read the properties "$schema" to get a pure json schema which can validate the output of Columba2.  
 
 ## use it with UMF IDE  
 This is a umf package of the output of columba2.  
