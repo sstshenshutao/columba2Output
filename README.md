@@ -8,8 +8,8 @@ Your file should come from http://cc1.cloud-columba.org/
 3. change: Change the Simple mode to the UMF mode  
 4. copy the output file of Columba2 to the text box  
 ### use it directly:  
-1. the output file of Columba2: you can read the properties "device", "chipDimension" and "channel" as output data of Columba2.  
-2. compiledPackage.json: you can read the properties "$schema" to get a pure json schema which can validate the output of Columba2.  
+1. the output file of Columba2: you can get the path "#/columba2.output" (json-pointer(rfc6901)) as the output data of Columba2.  
+2. compiledPackage.json: you can read the properties "$schema" to get a pure json schema which can validate the output data of Columba2.  
 
 ## The umf package  
 This is a umf package of the output of columba2.  
